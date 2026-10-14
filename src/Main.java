@@ -1,5 +1,9 @@
 public class Main {
-    static void main() {
-        System.out.println("Hello World!");
+    public static void main(String[] args) {
+
+        //instantiate temporary method
+        Artifact testArtifact = new Artifact("Elder Wand");
+
+
     }
 }
