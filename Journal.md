@@ -26,3 +26,16 @@ Phase 3 Question
 How does using this() to call another constructor help you if you decide to change the default essence type in the future?
 
 If you decide to change the default essence type in the future, using this() means you only have to update it in one place.
+
+
+----------
+
+
+Phase 4 Question
+
+What bugs or unexpected behaviors did you catch while testing? If you used an AI tutor, what did it suggest regarding your constructor logic, and did you make any changes?
+
+I did not encounter any unexpected behavior while testing, as the program worked correctly and met my expectations.
+
+When I reviewed my code, Gemini confirmed that my constructor logic followed proper Java object-oriented principles and required no changes. 
+However, it did recommend making the fields final for immutability and adding a toString() method for cleaner object representation. I chose to keep my current implementation since the program is running as expected.
